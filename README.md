@@ -48,3 +48,9 @@ builder = from_text_file('simple_domain.txt')
 print(builder.create_sentence())
 print(builder.create_corpus(5, 0))
 ```
+
+Or by using the command line utility
+
+```bash
+python -m corpus_builder --input simple_domain.txt -n 5
+```
