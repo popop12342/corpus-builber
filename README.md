@@ -38,3 +38,13 @@ print(builder.create_corpus(5, 0))
 
 A more complex example with natural language in the AskUbuntu corpus
 domain is in the [ask_ubuntu.py](src/ask_ubuntu.py) file.
+
+It is also possible to create a grammar from a text file in [this](src/simple_domain.txt) format. Then create the corpus builder as use it as follows
+
+```python
+from corpus_builder.builder_importer import from_text_file
+
+builder = from_text_file('simple_domain.txt')
+print(builder.create_sentence())
+print(builder.create_corpus(5, 0))
+```
