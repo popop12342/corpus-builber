@@ -1,6 +1,6 @@
 # Corpus Constructor
 
-Tool for semi-auromatic corpus construction for training NLP models.
+Tool for semi-automatic corpus construction for training NLP models.
 This project allows for a definition of a domain corpus by using a
 context-free grammar in the BNF form. This grammar is used to produce
 sample sentences belonging to this defined language. That are later
